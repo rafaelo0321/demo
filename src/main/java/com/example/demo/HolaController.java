@@ -12,4 +12,8 @@ public class HolaController {
     public ResponseEntity<String> holaMundo(){
         return ResponseEntity.ok("Hola Rafael bienvenido");
     }
+    @GetMapping
+    public ResponseEntity<String> holaMundo2(){
+        return ResponseEntity.ok("Hola, Bienvenido");
+    }
 }
